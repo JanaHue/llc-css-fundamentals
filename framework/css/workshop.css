@@ -51,3 +51,9 @@
   position: absolute;
   bottom: 20px;
 }
+
+.half {
+  display: inline-block;
+  min-width: 420px;
+  vertical-align: top;
+}
