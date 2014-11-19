@@ -1100,11 +1100,17 @@ max-width: 1000px;</textarea>
 
             <iframe width="100%" height="360" src="http://jsfiddle.net/janahue/dwvfjawn/6/embedded/html,css/"allowfullscreen="allowfullscreen" frameborder="0"></iframe>
             
-            <p>Let's add this clearfix snippet to our CSS file to use it later.</p>
+            <p>Let's add this clearfix snippet to our CSS file to use it later:</p>
+            <pre><code>.clearfix:after { /* clearfix */
+            content: "";
+            display: table;
+            clear: both;
+            }</code></pre>
             <p>Want to know more about the clearfix trick and clearing floats? Here you go:<br>
             <a href="http://css-tricks.com/snippets/css/clear-fix/">http://css-tricks.com/snippets/css/clear-fix/</a><br>
             <a href="http://www.sitepoint.com/clearing-floats-overview-different-clearfix-methods/">http://www.sitepoint.com/clearing-floats-overview-different-clearfix-methods/</a>
             </p>
+
         </section>
 
         <section class="slide" data-markdown>
